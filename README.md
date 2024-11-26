@@ -1,5 +1,6 @@
 # View and Download Subtitles from JW.ORG Videos
-A lightweight web page to view, download, and copy subtitles from JW.org videos. It allows to extract subtitles in VTT or plain text format, with or without timing. Currently works only in English.
+A lightweight web page to view, download, and copy subtitles from JW.org videos. It allows to extract subtitles in VTT or plain text format, with or without timing. Currently works only in English. <br>
+[Live preview.](https://samuelabyan.github.io/jworg-subtitle-fetcher/)
 ## Features
 **View Subtitles**: Fetch subtitles from a JW.org video URL and display them on the page. <br>
 **Toggle Timing**: Choose to display subtitles with or without timing information. <br>
