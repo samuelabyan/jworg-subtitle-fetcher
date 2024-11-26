@@ -9,9 +9,9 @@ A lightweight web page to view, download, and copy subtitles from JW.org videos.
 **Copy Subtitles**: Copy the displayed subtitles (with or without timing) to the clipboard for easy use elsewhere. <br>
 
 ## How to Use
-- Enter a valid JW.org video URL in the input field. Example: https://www.jw.org/en/library/videos/#en/mediaitems/LatestVideos/pub-jwbvod24_45_VIDEO <br>
-- Click the View Subtitles button to fetch the subtitles. <br>
-**After the subtitles are displayed:** <br>
-- Use the Include Timing checkbox to toggle timing information.
-- Use the Download VTT or Download TXT buttons to save the subtitles.
-- Use the Copy Text button to copy the subtitles to your clipboard.
+* Enter a valid JW.org video URL in the input field. Example: https://www.jw.org/en/library/videos/#en/mediaitems/LatestVideos/pub-jwbvod24_45_VIDEO
+* Click the View Subtitles button to fetch the subtitles.
+* After the subtitles are displayed:
+  * Use the Include Timing checkbox to toggle timing information.
+  * Use the Download VTT or Download TXT buttons to save the subtitles.
+  * Use the Copy Text button to copy the subtitles to your clipboard.
