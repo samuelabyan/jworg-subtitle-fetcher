@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Viewer and Downloader</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subtitle Viewer and Downloader</h1>
+        <input type="text" id="jwUrl" placeholder="Enter the JW.org video URL" />
+        <button id="viewBtn">View Subtitles</button>
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading subtitles...</p>
+        </div>
+        <div class="checkbox-container" id="checkboxContainer" hidden>
+            <input type="checkbox" id="includeTiming" checked />
+            <label for="includeTiming">Include Timing</label>
+        </div>
+        <pre id="subtitleDisplay" hidden></pre>
+        <div class="download-buttons" id="downloadButtons" hidden>
+            <button id="downloadVttBtn">Download VTT</button>
+            <button id="downloadTxtBtn">Download TXT</button>
+            <button class="copy-text-btn" id="copyTextBtn">Copy Text</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
